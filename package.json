@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-     "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --no-cache",
+    "deploy": "gh-pages -d dist "
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/DinaMazur/parcel.progect#readme",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.14.4"
   }
 }
