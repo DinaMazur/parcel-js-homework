@@ -1,24 +1,24 @@
 {
   "name": "parcel.progect",
-  "homepage": " https://dinamazur.github.io/parcel-progect/",
+  "homepage": " https://dinamazur.github.io/parcel-js-homework/",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --no-cache --public-url /parcel-progect/",
+    "build": "parcel build src/index.html --no-cache --public-url /parcel-js-homework/",
     "deploy": "gh-pages -d dist ",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DinaMazur/parcel.progect.git"
+    "url": "git+https://github.com/DinaMazur/parcel-js-homework.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DinaMazur/parcel.progect/issues"
+    "url": "https://github.com/DinaMazur/parcel-js-homework/issues"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
